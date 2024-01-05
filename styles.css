@@ -22,6 +22,12 @@ body {
     background-color: #c4d1ec;
 }
 
+.port img {
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+}
+
 .bigtext{
     font-family: 'CabinetGrostek';
     font-weight: bold;
@@ -181,8 +187,8 @@ section {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 180px;
+    padding-bottom: 180px;
     font-size: 50px;
     overflow: scroll;
 }
