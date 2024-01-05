@@ -16,38 +16,36 @@
     font-weight: black;
 }
 
-
 body {
     font-family: 'CabinetGrostek', sans-serif;
     overflow: scroll;
+    background-color: #c4d1ec;
 }
 
+.bigtext{
+    font-family: 'CabinetGrostek';
+    font-weight: bold;
+    color: #c4d1ec;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 
-.headerimg  {
+.textsmaller {
+    font-size: 30px;
+}
+
+.headerbg {
     min-height: 100vh;
     width: 100%;
     user-select: none;
-    background-image: url(freedom..png);
+    background-image: url(headerbackground2.png);
     background-position: center;
     background-size:cover;   
     position: relative;
 }
 
-.portfolioimg {
-    min-height: 100vh;
-    width: 100%;
-    user-select: none;
-    background-image: url(portfolio.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-.port img {
-    position: relative;
-    max-width: 100%;
-    max-height: auto;
-}
 
 .center {
     display: flex;
@@ -58,21 +56,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #bbdbfa;
-
-}
-
-.a2 {
-    color: #bbdbfa;
-    padding: 12px;
-    text-decoration: none;
-    line-height: 60px;
+    color: #c4d1ec;
 
 }
 
 .header {
 
-    color: #bbdbfa;
+    color: #c4d1ec;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -94,7 +84,7 @@ a {
     border: none;
     font-family: 'CabinetGrostek', sans-serif;
     font-weight: bold;
-    color: #bbdbfa;
+    color: #c4d1ec;
     padding: 12px;
     font-size: 18px;
     border: none;  }
@@ -104,7 +94,7 @@ a {
     border: none;
     font-family: 'CabinetGrostek', sans-serif;
     font-weight: bold;
-    color: #bbdbfa;
+    color: #c4d1ec;
     padding: 12px;
     font-size: 18px;
     border: none;
@@ -112,8 +102,33 @@ a {
   }
 
 
+  .dropbtn3 {
+    background: #111e40;
+    border: none;
+    font-family: 'CabinetGrostek', sans-serif;
+    font-weight: bold;
+    color: #c4d1ec;
+    padding: 12px;
+    font-size: 30px;
+    border: none;
+    text-decoration: none;
+  }
+
+  .dropbtn4 {
+    background: #111e40;
+    font-family: 'CabinetGrostek', sans-serif;
+    font-weight: bold;
+    color: #c4d1ec;
+    padding: 12px;
+    font-size: 30px;
+    border: none;
+    text-decoration: none;
+  }
+
+
+
 .dropdown-content {
-    color: black;
+    color: #111e40;
     background-color: lightgrey;
     display: none;
     position: absolute;
@@ -126,35 +141,24 @@ a {
 }
 
 .dropdown-content a {
-    color: black;
+    color: #111e40;
     padding: 8px 8px;
     text-decoration: none;
     display: block;
 
   }
 
-.dropdown-content a:hover {background-color:#bbdbfa;}
+.dropdown-content a:hover {background-color:#c4d1ec;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color:#bbdbfa; color: black;}
+.dropdown:hover .dropbtn {background-color:#c4d1ec; color: #111e40;}
 
-.dropdown:hover .dropbtn2 {background-color:#bbdbfa; color: black;}
+.dropdown:hover .dropbtn2 {background-color:#c4d1ec; color: #111e40;}
 
-  
-/* .header::after {
-    content: '';
-    width: 0%;
-    height: 4px;
-    background: #bbdbfa;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
+.dropdown:hover .dropbtn3 {background-color:#c4d1ec; color: #111e40;}
 
-.header:hover::after {
-    width: 100%;
-} */
+.dropdown:hover .dropbtn4 {background-color:#c4d1ec; color: #111e40;}
 
 
 section {
@@ -162,10 +166,18 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
 }
 
 .journey {
+    color: #111e40;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -179,14 +191,14 @@ section {
     width: 100;
     text-align: center;
     padding: 30px;
-    background-color: #bbdbfa;
+    background-color: #111e40;
 }
 
 .footer h4 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: black;
-    color: black;
+    color: #c4d1ec;
 }
 
 .animation {
@@ -223,7 +235,7 @@ section {
     display: flex;
     text-align: center;
     font-size: 30px;
-    color: #bbdbfa;
+    color: #c4d1ec;
     text-decoration: none;
     cursor: pointer;
     background: none;
@@ -234,45 +246,59 @@ section {
 }
 
 .container1 .btn:hover {
-  background-color: #bbdbfa;
-  color: black;
+  background-color: #c4d1ec;
+  color: #111e40;
 }
 
 .container2 .btn2:hover {
-    background-color: #bbdbfa;
-    color: black;
+    background-color: #c4d1ec;
+    color: #111e40;
   }
 
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 800px;
+}
+
+.container6:hover .image {
+    opacity: 0.3;
+  }
   
+.container6:hover .middle {
+    opacity: 1;
+  }
 
-.code {
+
+.container6 {
     display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
-}  
-.code1 {
-    background-color: #1f1f1f;
-    color: white;
-    width: 400px;
-    height: 450px;
-    overflow: scroll;
-    padding: 30px;
+
 }
 
-.code2 {
-    background-color: #1f1f1f;
-    color: white;
-    width: 400px;
-    height: 450px;
-    overflow: auto;
-    padding: 30px;
-}
-
-.code3 {
-    background-color: #1f1f1f;
-    color: white    ;
-    width: 400px;
-    height: 450px;
-    overflow: auto;
-    padding: 30px;
-}
+  .text {
+    background-color: #111e40;
+    color: #c4d1ec;
+    font-family: 'Cabinet Grotesk';
+    font-size: 30px;
+    padding: 16px 32px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+  }
+  
+  
