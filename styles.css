@@ -1,23 +1,23 @@
 @font-face {
-    font-family: 'CabinetGrostek';
+    font-family: 'CabinetGrotesk';
     src: url(fonts/CabinetGrotesk-Regular.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'CabinetGrostek';
+    font-family: 'CabinetGrotesk';
     src: url(fonts/CabinetGrotesk-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: 'CabinetGrostek';
+    font-family: 'CabinetGrotesk';
     src: url(fonts/CabinetGrotesk-Black.ttf) format('truetype');
     font-weight: black;
 }
 
 body {
-    font-family: 'CabinetGrostek', sans-serif;
+    font-family: 'CabinetGrotesk', sans-serif;
     overflow-y: scroll;
     background-color: #c4d1ec;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .bigtext{
-    font-family: 'CabinetGrostek';
+    font-family: 'CabinetGrotesk', sans-serif;
     font-weight: bold;
     color: #c4d1ec;
     font-size: 150px;
@@ -88,7 +88,7 @@ a {
 .dropbtn {
     background: none;
     border: none;
-    font-family: 'CabinetGrostek', sans-serif;
+    font-family: 'CabinetGrotesk', sans-serif;
     font-weight: bold;
     color: #c4d1ec;
     padding: 12px;
@@ -98,7 +98,7 @@ a {
   .dropbtn2 {
     background: none;
     border: none;
-    font-family: 'CabinetGrostek', sans-serif;
+    font-family: 'CabinetGrotesk', sans-serif;
     font-weight: bold;
     color: #c4d1ec;
     padding: 12px;
@@ -111,7 +111,7 @@ a {
   .dropbtn3 {
     background: #111e40;
     border: none;
-    font-family: 'CabinetGrostek', sans-serif;
+    font-family: 'CabinetGrotesk', sans-serif;
     font-weight: bold;
     color: #c4d1ec;
     padding: 12px;
@@ -122,7 +122,7 @@ a {
 
   .dropbtn4 {
     background: #111e40;
-    font-family: 'CabinetGrostek', sans-serif;
+    font-family: 'CabinetGrotesk', sans-serif;
     font-weight: bold;
     color: #c4d1ec;
     padding: 12px;
@@ -236,7 +236,7 @@ section {
 
   
 .container1 .btn, .container2 .btn2 {
-    font-family: 'Cabinet Grotesk', sans-serif;
+    font-family: 'CabinetGrotesk', sans-serif;
     display: flex;
     text-align: center;
     font-size: 30px;
@@ -295,10 +295,10 @@ section {
 
 }
 
-  .text {
+.text {
     background-color: #111e40;
     color: #c4d1ec;
-    font-family: 'Cabinet Grotesk';
+    font-family: 'CabinetGrotesk', sans-serif;
     font-size: 30px;
     padding: 16px 32px;
     font-weight: bold;
