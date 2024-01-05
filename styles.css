@@ -20,12 +20,17 @@ body {
     font-family: 'CabinetGrotesk', sans-serif;
     overflow-y: scroll;
     background-color: #c4d1ec;
+    max-width: 100%;
 }
+
 
 .port img {
     position: relative;
-    max-width: 100%;
+    max-width: 65%;
     max-height: auto;
+    background-color: #c4d1ec;
+    padding: 30px;
+    margin-left: 15.5%;
 }
 
 .bigtext{
@@ -272,7 +277,7 @@ section {
 .middle {
     transition: .5s ease;
     opacity: 0;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -305,5 +310,5 @@ section {
     text-decoration: none;
     border: none;
   }
-  
-  
+
+
