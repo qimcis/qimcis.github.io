@@ -18,7 +18,7 @@
 
 body {
     font-family: 'CabinetGrostek', sans-serif;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: #c4d1ec;
 }
 
@@ -190,7 +190,6 @@ section {
     padding-top: 180px;
     padding-bottom: 180px;
     font-size: 50px;
-    overflow: scroll;
 }
 
 .footer {
