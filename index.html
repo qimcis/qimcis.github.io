@@ -2,55 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet">
     <script src="animation.js" defer></script>
-    <title>CHI</title>
+    <title>chi mcisaac</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body class="body">
-<main>
-    <div class="headerbg" role="img" alt="altimg">
-        <div class="center">
-            <div class="header">
-               <div class="dropdown">
-                    <a class="dropbtn2" href="index.html">ABOUT ME</a>
-               </div>
-               <div class="dropdown">
-                   <button class="dropbtn">PORTFOLIO</button>
-               <div class="dropdown-content a">
-                <a href="art.html">ART</a><a href="code.html">CODE</a>
-               </div>
-            </div> 
-    </div>
-    </div>
-    <div class="bigtext">Hi, I'm Chi.<br>A Creative.<br> </div>
-    </div>
+    <body>
+        <div class="page-wrap">
 
-<div class="journey">
-    <b class="animationleft">Just 1 month ago, I was an aspiring artist looking to pursue a career in animation</b>
-</div>  
-<section class="journey">
-    <b class="animation">Now, I've applied myself to learning the ins and outs of writing code in hopes of helping to create creative and innovative projects for both others, and myself.</b>
-    <div class="header">
-        <div class="container">
-    <div class="dropdown">
-        <a class="dropbtn3" href="code.html">CODE</a>
+                <!--header-->
+
+            <div class="header"></div>
+
+            <div class="content-container">
+
+                <!--introduction-->
+
+                <div class="intro-container">
+                    <div class="intro-title">hi, i'm chi.</div>
+                    <div class="typewriter-container">
+                        <span id="typewriter">
+                            <span id="text"></span>
+                            <div class="caret"></div>
+                        </span>
+                    </div>
+                </div>
+
+                <!--links-->
+
+                <div class="links-container">
+                    <div class="intro-links" onclick=smoothScroll()>About Me</div>
+                    <br></br>
+                    <div class="intro-links" onclick="location.href='https://github.com/qimcis'">Github</div>
+                    <br></br>
+                    <div class="intro-links" onclick="location.href='https://www.linkedin.com/in/chimcisaac/'">Linkedin</div>
+                </div>
+                
+            </div>
+            
+                <!--smooth scroller-->
+
+            <div class="divider-container">
+                <div class="down-arrow" onclick=smoothScroll()>
+                    ↓
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+                <!--about me-->
+
+                <div class="aboutme-container" id="about">
+                    <div class="aboutme-content">
+                        <div class="aboutme-text-content">
+                            <div class="aboutme-title">
+                                About Me
+                            </div>
+                            <div class="line">
+                                <hr>
+                            </div>
+                            <div class="aboutme-subtitle">
+                                computer science student @ carleton university
+                            </div>
+                            <div class="aboutme-text">
+                                I'm an incoming BSc student based in Ottawa, Canada.
+                                <br><br>
+                                I love to learn new concepts. My primary interests are Machine Learning and AI, UI/UX design, and front-end development. As a developer I'm always looking to learn ways to make <i><b>your</b></i> product better.
+                                <br><br>
+                                Let's make something happen together.
+                            </div>
+                        </div>
+                        <div class="aboutme-image">
+                            <img src="aboutme-image.jpg" alt="About Me">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- coffee? -->
+            <div class="coffee-container">
+                <div class="coffee-text">
+                    You've made it this far, if you'd like to talk more, let's chat over coffee 
+                </div>
+                <br>
+                <div class="contact-button" id="contactButton"> 
+                    Contact Me
+                </div>
+            </div>
+        </div>
+    </body>
+                <!--footer-->
+
+    <div class="footer">
+        <div class="footer-text">
+             Made with love and care by Chi - 2024 
+        </div>
     </div>
-    <div class="dropdown">
-    <a class="dropbtn4" href="art.html">ART</a>
-    </div>
-</div>
-</div>
-</div>
-</section>
-
-
-</main>
-
-    <footer class="footer">
-        <h4>MADE WITH LOVE AND CARE BY CHI, DEC 2023</h4>
-    </footer>
-</body>
 </html>
