@@ -86,3 +86,13 @@ document.addEventListener('DOMContentLoaded', function() {
       window.location.href = "mailto:chixie.mcisaac@gmail.com";
   });
 });
+
+
+//cursor
+
+document.addEventListener('mousemove', (e) => {
+  const light = document.getElementById('cursor-light');
+  const lightSize = 1500; 
+  light.style.left = (e.clientX - lightSize/2) + 'px';
+  light.style.top = (e.clientY - lightSize/2) + 'px';
+});
